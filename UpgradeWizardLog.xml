@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\FreeLauncher.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\app.config" />
+  <event action="Analyze" type="Success" name="LauncherForm.resx" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\Forms\LauncherForm\LauncherForm.resx" />
+  <event action="Analyze" type="Success" name="ProfileForm.resx" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\Forms\ProfileForm\ProfileForm.resx" />
+  <event action="Analyze" type="Success" name="UpdateForm.resx" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\Forms\UpdateForm\UpdateForm.resx" />
+  <event action="Analyze" type="Success" name="UsersForm.resx" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\Forms\UsersForm\UsersForm.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="FreeLauncher" path="C:\Users\Maxim\source\FreeLauncher-master\src\FreeLauncher\FreeLauncher.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\dotMCLauncher.Profiling.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\packages.config" />
+  <event action="Analyze" type="Success" name="dotMCLauncher.Profiling" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling\dotMCLauncher.Profiling.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\dotMCLauncher.Networking.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\packages.config" />
+  <event action="Analyze" type="Success" name="dotMCLauncher.Networking" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Networking\dotMCLauncher.Networking.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\dotMCLauncher.Versioning.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\packages.config" />
+  <event action="Analyze" type="Success" name="dotMCLauncher.Versioning" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Versioning\dotMCLauncher.Versioning.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\dotMCLauncher.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\packages.config" />
+  <event action="Analyze" type="Success" name="dotMCLauncher" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher\dotMCLauncher.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\dotMCLauncher.Profiling.V2.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\packages.config" />
+  <event action="Analyze" type="Success" name="dotMCLauncher.Profiling.V2" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Profiling.V2\dotMCLauncher.Profiling.V2.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\dotMCLauncher.Resourcing.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\packages.config" />
+  <event action="Analyze" type="Success" name="dotMCLauncher.Resourcing" path="C:\Users\Maxim\source\FreeLauncher-master\src\dotMCLauncher.Resourcing\dotMCLauncher.Resourcing.csproj" />
+  <event action="Analyze" type="Success" name="FreeLauncher" path="C:\Users\Maxim\source\FreeLauncher-master\FreeLauncher.sln" />
+</log>

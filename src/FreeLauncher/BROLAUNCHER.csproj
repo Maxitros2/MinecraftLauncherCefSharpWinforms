@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.props" Condition="Exists('..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.props')" />
+  <Import Project="..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.props" Condition="Exists('..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.props')" />
+  <Import Project="..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.props" Condition="Exists('..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.props')" />
+  <Import Project="..\..\packages\cef.redist.x86.75.1.14\build\cef.redist.x86.props" Condition="Exists('..\..\packages\cef.redist.x86.75.1.14\build\cef.redist.x86.props')" />
+  <Import Project="..\..\packages\cef.redist.x64.75.1.14\build\cef.redist.x64.props" Condition="Exists('..\..\packages\cef.redist.x64.75.1.14\build\cef.redist.x64.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F63BCFF8-2B72-4FF4-BE24-EEC9E1E3645B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FreeLauncher</RootNamespace>
+    <AssemblyName>BroLauncher</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <AssemblyInfoFilePath>Properties\AssemblyInfo.cs</AssemblyInfoFilePath>
+    <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+    <AssemblyVersionSettings>None.None.None.Increment</AssemblyVersionSettings>
+    <AssemblyFileVersionSettings>None.None.None.Increment</AssemblyFileVersionSettings>
+    <AssemblyInfoVersionSettings>
+    </AssemblyInfoVersionSettings>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ShouldCreateLogs>False</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+    <AssemblyInfoVersionSemVerSettings>
+    </AssemblyInfoVersionSemVerSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommandLine, Version=2.2.1.0, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\CommandLineParser.2.2.1\lib\net45\CommandLine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Costura, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Costura.Fody.3.1.0\lib\net46\Costura.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetZip, Version=1.11.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DotNetZip.1.11.0\lib\net20\DotNetZip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationArguments.cs" />
+    <Compile Include="ApplicationConfiguration.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="FilterButton.cs" />
+    <Compile Include="ForgeVersions.cs" />
+    <Compile Include="Forms\BroLauncher.cs" />
+    <Compile Include="Forms\BroLauncher.Designer.cs">
+      <DependentUpon>BroLauncher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RenderProcessMessageHandler.cs" />
+    <Compile Include="Forms\servManager.cs" />
+    <Compile Include="Forms\VerAndAccManager.cs" />
+    <Compile Include="GitHubRelease.cs" />
+    <Compile Include="Java.cs" />
+    <Compile Include="ApplicationLocalization.cs" />
+    <Compile Include="jsinit.cs" />
+    <Compile Include="McForgeInstallationType.cs" />
+    <Compile Include="McForgeVersion.cs" />
+    <Compile Include="McVersion.cs" />
+    <Compile Include="ModProvider.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="ServerInfo.cs" />
+    <EmbeddedResource Include="Forms\BroLauncher.resx">
+      <DependentUpon>BroLauncher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="14218.ttf" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Translations\en_UK\lang.json" />
+    <EmbeddedResource Include="Translations\ru_RU\lang.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecraft-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecraft_dirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FodyWeavers.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 � x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dotMCLauncher.Resourcing\dotMCLauncher.Resourcing.csproj">
+      <Project>{98ced877-cfe5-4dbc-a54e-1d98c3d44095}</Project>
+      <Name>dotMCLauncher.Resourcing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dotMCLauncher.Profiling\dotMCLauncher.Profiling.csproj">
+      <Project>{e0f782f2-153e-4285-862c-1279a32b1141}</Project>
+      <Name>dotMCLauncher.Profiling</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dotMCLauncher.Versioning\dotMCLauncher.Versioning.csproj">
+      <Project>{e41644a8-2949-4cc3-b1b1-cebf32b055a2}</Project>
+      <Name>dotMCLauncher.Versioning</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dotMCLauncher.Networking\dotMCLauncher.Networking.csproj">
+      <Project>{2aec9ec1-5042-4922-b425-88b740fddc82}</Project>
+      <Name>dotMCLauncher.Networking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dotMCLauncher\dotMCLauncher.csproj">
+      <Project>{56c1e499-2f30-4892-a71a-4f72913a2116}</Project>
+      <Name>dotMCLauncher</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.ico" />
+    <Content Include="Resources\icon.ico" />
+    <None Include="Resources\favorite-b.png" />
+    <None Include="Resources\Lypa.png" />
+    <None Include="Resources\tile.png" />
+    <None Include="Resources\joystick.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\downloads.png" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\�������� ������.png" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\���������� ������.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\base_1.png" />
+    <None Include="Resources\logo.png" />
+    <EmbeddedResource Include="Fol\LibraryUnpacker.jar" />
+    <EmbeddedResource Include="Fol\xz-1.8.jar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="BeforeBuild">
+    <Message Text=" --=== Before Build ==--">
+    </Message>
+    <ReadLinesFromFile File=".\Properties\AssemblyInfo.cs">
+      <Output TaskParameter="Lines" ItemName="AssemblyInfoContent" />
+    </ReadLinesFromFile>
+    <PropertyGroup>
+      <Pattern>\[assembly: AssemblyVersion\(.(\d+)\.(\d+)\.(\d+).(\d+)</Pattern>
+      <In>@(AssemblyInfoContent)</In>
+      <Out>$([System.Text.RegularExpressions.Regex]::Match($(In), $(Pattern)))</Out>
+    </PropertyGroup>
+    <Exec Condition="$(OS) == 'Windows_NT'" Command="..\..\scripts\pre_build.bat $(Out.Remove(0, 28))" />
+  </Target>
+  <Target Name="AfterBuild">
+    <Message Text=" --=== After Build ==--">
+    </Message>
+    <ReadLinesFromFile File=".\Properties\AssemblyInfo.cs">
+      <Output TaskParameter="Lines" ItemName="AssemblyInfoContent" />
+    </ReadLinesFromFile>
+    <PropertyGroup>
+      <Pattern>\[assembly: AssemblyVersion\(.(\d+)\.(\d+)\.(\d+).(\d+)</Pattern>
+      <In>@(AssemblyInfoContent)</In>
+      <Out>$([System.Text.RegularExpressions.Regex]::Match($(In), $(Pattern)))</Out>
+    </PropertyGroup>
+    <Exec Condition="$(OS) == 'Windows_NT'" Command="..\..\scripts\post_build.bat $(Configuration) $(Out.Remove(0, 28))" />
+    <Exec Condition="$(OS) != 'Windows_NT'" Command="cp -v -a &quot;$(ProjectDir)Translations\.&quot; &quot;$(TargetDir)freelauncher-langs\&quot;" />
+  </Target>
+  <Import Project="..\..\packages\EmptyLicensesLicx.1.1.0\build\EmptyLicensesLicx.targets" Condition="Exists('..\..\packages\EmptyLicensesLicx.1.1.0\build\EmptyLicensesLicx.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>������ ������ ��������� �� ������ NuGet, ������������� �� ���� ����������. ����������� �������������� ������� NuGet, ����� ������� ��.  �������������� ���������� ��. �� ������: http://go.microsoft.com/fwlink/?LinkID=322105. ����������� ��������� ����: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\EmptyLicensesLicx.1.1.0\build\EmptyLicensesLicx.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\EmptyLicensesLicx.1.1.0\build\EmptyLicensesLicx.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Fody.3.1.4\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Fody.3.1.4\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\..\packages\cef.redist.x64.75.1.14\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\cef.redist.x64.75.1.14\build\cef.redist.x64.props'))" />
+    <Error Condition="!Exists('..\..\packages\cef.redist.x86.75.1.14\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\cef.redist.x86.75.1.14\build\cef.redist.x86.props'))" />
+    <Error Condition="!Exists('..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.props'))" />
+    <Error Condition="!Exists('..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.targets'))" />
+    <Error Condition="!Exists('..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.props'))" />
+    <Error Condition="!Exists('..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.targets'))" />
+    <Error Condition="!Exists('..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.props'))" />
+    <Error Condition="!Exists('..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.targets'))" />
+  </Target>
+  <Import Project="..\..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets" Condition="Exists('..\..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets')" />
+  <Import Project="..\..\packages\Fody.3.1.4\build\Fody.targets" Condition="Exists('..\..\packages\Fody.3.1.4\build\Fody.targets')" />
+  <Import Project="..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.targets" Condition="Exists('..\..\packages\CefSharp.Common.75.1.142\build\CefSharp.Common.targets')" />
+  <Import Project="..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.targets" Condition="Exists('..\..\packages\CefSharp.WinForms.75.1.142\build\CefSharp.WinForms.targets')" />
+  <Import Project="..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.targets" Condition="Exists('..\..\packages\CefSharp.OffScreen.75.1.142\build\CefSharp.OffScreen.targets')" />
+</Project>
