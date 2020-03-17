@@ -2,7 +2,7 @@
 
 ![Screenshot](https://i.ibb.co/prW0L9P/sss.png)
 
-This is open source unofficial Minecraft launcher, based on dotMCLauncher. Feel free to contibute.
+This is my unofficial Minecraft launcher
 
 Requires **.NET Framework 4.6.1**
 
